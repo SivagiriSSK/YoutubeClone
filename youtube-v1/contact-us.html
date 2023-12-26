@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get online support from our end">
+  <meta name="keywords" content="How can we help you? , contact-us , need assistance , react out to us">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact-us</title>
+
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+
+  <!--header starts here-->
+  <header>
+    <a href="./index.html">
+      <img src="./assets/images/yt-logo.png" alt="YouTube Logo" width="120"></a>
+    <input type="text" placeholder="Search" class="search-input">
+    <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <button type="button"><i class="fa-solid fa-microphone"></i></button>
+    <button type="button"><i class="fa-solid fa-user"></i> Sign in</button>
+
+    <nav id="primaryNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--header ends here-->
+
+  <!--main starts here-->
+  <main>
+    <h1>Contact-us Page!</h1>
+
+    <form class="contact-form">
+      <div class="field-wrapper">
+        <label for="nameInput">Enter your Name:</label>
+        <input type="text" id="nameInput" placeholder="Enter your name" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="phoneInput">Enter your Phone:</label>
+        <input type="tel" id="phoneInput" placeholder="Enter your phone" title="Enter your 10 digit phone number"
+          pattern="[0-9]{10}" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="emailInput">Enter your E-Mail:</label>
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="queryInput">Enter your Query:</label>
+        <textarea id="queryInput" cols="50" rows="5" minlength="10" maxlength="35" placeholder="Enter your query"
+          required></textarea>
+      </div>
+      <div class="button-wrapper">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </main>
+  <!--main ends here-->
+
+  <!--footer starts here-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright 2023 | Sivagiri</p>
+  </footer>
+  <!--footer ends here-->
+
+</body>
+
+</html>

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enjoy the video and music you love and share it with your friends">
+  <meta name="keywords" content="videos,music,trending videos,stock market">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>video</title>
+
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="icon" href="./assets/images/youtube-logo.svg">
+</head>
+
+<body>
+
+  <!--header starts here-->
+  <header>
+
+    <div class="yt-header">
+      <div>
+        <a href="./index.html">
+          <img src="./assets/images/yt-logo.png" alt="YouTube Logo" width="120"></a>
+      </div>
+
+      <div class="input-grp">
+        <input type="text" placeholder="Search" class="search-input">
+        <button type="button" id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button type="button" id="searchMic"><i class="fa-solid fa-microphone"></i></button>
+      </div>
+
+      <div>
+        <button type="button" id="signInButton"><i class="fa-solid fa-user"></i> Sign in</button>
+      </div>
+    </div>
+    <!-- <nav id="primaryNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav> -->
+
+  </header>
+  <!--header ends here-->
+
+  <!--main starts here-->
+  <main>
+
+    <div class="video-grid">
+
+      <div id="videoDescription">
+        <div id="fullVideo">
+          <video class="main-video" controls autoplay>
+            <source src="./assets/videos/meta-video.mp4" type="video/mp4">
+          </video>
+          <p id="videoTitle">Amazon Wildlife In 4K - Animals That Call The Jungle Home </p>
+        </div>
+
+        <div id="descriptionSection">
+
+          <div class="video-buttons">
+
+            <div class="ch-name">
+              <a href="./video.html">
+                <img class="channel-logo" src="./assets/images/apple-logo.png" alt="Channel F">
+              </a>
+              <p class="ch-details">
+                <a href="#" id="channelName">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span>265K subscribers</span>
+              </p>
+            </div>
+
+            <div>
+              <button type="button" class="subscribe-btn">Subscribe</button>
+            </div>
+
+            <div>
+              <button type="button" id="thumbsUp"><i class="fa-solid fa-thumbs-up"></i> 75K</button>
+              <button type="button" id="thumbsDown"><i class="fa-solid fa-thumbs-down"></i></button>
+              <button type="button" id="shareButton"><i class="fa-regular fa-share-from-square"></i> Share</button>
+              <button type="button" id="downloadButton"><i class="fa-solid fa-download"></i>
+                Download</button>
+              <button type="button" id="dotsButton"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </div>
+          </div>
+
+          <div class="ch-description">
+            <p class="video-explanation">
+              <span>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+                <span>| 5 Tips for Building Trust with Content Marketing
+                </span>
+              </span>
+              <span>
+                Establish your company as an expert and an industrial leader by incorporating this type of content on
+                your
+                site or landing pages.
+              </span>
+
+              <span id="videoExplain">
+                Establish your company as an expert and an industrial leader by incorporating this type of content on
+                your
+                site or landing pages.</span>
+            </p>
+          </div>
+
+          <div class="ch-comments">
+            <div>
+              <span>317 Comments</span>
+            </div>
+            <div>
+              <span>&nbsp;<i class="fa-solid fa-align-left"></i> Sort by</span>
+            </div>
+          </div>
+
+          <div class="public-review">
+            <button type="button" id="commentIcon"><i class="fa-solid fa-user"></i></button>
+            <input type="text" id="commentInput" placeholder=" Add a comment...">
+          </div>
+
+          <!--Public Comments and Reply-1 -->
+          <div class="public-comments">
+            <div>
+              <a href=""><img class="public-logo" src="./assets/images/netflix-logo.png" alt="spotify-logo"></a>
+            </div>
+
+            <div>
+              <span class="public-name">@Sivagiri S</span>
+              <span class="post-date"> 12 months ago</span>
+              <span class="public-thoughts">
+                Thank you very much Mash. This course is very well thought out
+                and has a really high quality. No magic shortcut - everything is explained plus great hints along
+                the
+                way.
+              </span>
+            </div>
+
+          </div>
+
+          <div class="comment-buttons">
+            <button class="like-button" type="button"><i class="fa-solid fa-thumbs-up"></i></button>
+            <span class="comment-likes">24</span>
+            <button class="dislike-button" type="button"><i class="fa-solid fa-thumbs-down"></i></button>
+            <button class="reply-button" type="button">Reply</button>
+          </div>
+          <!--Public Comments and Reply-1 ends-->
+
+          <!--Public Comments and Reply-2 starts-->
+          <div class="public-comments">
+            <div>
+              <a href=""><img class="public-logo" src="./assets/images/spotify-logo.png" alt="spotify-logo"></a>
+            </div>
+
+            <div>
+              <span class="public-name">@Sivagiri S</span>
+              <span class="post-date"> 1 year ago</span>
+              <span class="public-thoughts">
+                Thank you very much Mash. This course is very well thought out
+                and has a really high quality. No magic shortcut - everything is explained plus great hints along
+                the
+                way.
+              </span>
+            </div>
+          </div>
+
+          <div class="comment-buttons">
+            <button class="like-button" type="button"><i class="fa-solid fa-thumbs-up"></i></button>
+            <span class="comment-likes">32</span>
+            <button class="dislike-button" type="button"><i class="fa-solid fa-thumbs-down"></i></button>
+            <button class="reply-button" type="button">Reply</button>
+          </div>
+          <!--Public Comments and Reply-2 ends-->
+
+          <!--Public Comments and Reply-3 starts-->
+          <div class="public-comments">
+            <div>
+              <a href=""><img class="public-logo" src="./assets/images/ge-logo.png" alt="spotify-logo"></a>
+            </div>
+
+            <div>
+              <span class="public-name">@Sivagiri S</span>
+              <span class="post-date"> 12 months ago</span>
+              <span class="public-thoughts">
+                Thank you very much Mash. This course is very well thought out
+                and has a really high quality. No magic shortcut - everything is explained plus great hints along
+                the
+                way.
+              </span>
+            </div>
+          </div>
+
+          <div class="comment-buttons">
+            <button class="like-button" type="button"><i class="fa-solid fa-thumbs-up"></i></button>
+            <span class="comment-likes">12</span>
+            <button class="dislike-button" type="button"><i class="fa-solid fa-thumbs-down"></i></button>
+            <button class="reply-button" type="button">Reply</button>
+          </div>
+          <!--Public Comments and Reply-3 ends-->
+
+          <!--Public Comments and Reply-4 starts-->
+          <div class="public-comments">
+            <div>
+              <a href=""><img class="public-logo" src="./assets/images/audi-logo.png" alt="spotify-logo"></a>
+            </div>
+            <div>
+              <span class="public-name">@Sivagiri S</span>
+              <span class="post-date"> 2 years ago</span>
+              <span class="public-thoughts">
+                Thank you very much Mash. This course is very well thought out
+                and has a really high quality. No magic shortcut - everything is explained plus great hints along
+                the
+                way.
+              </span>
+            </div>
+          </div>
+
+          <div class="comment-buttons">
+            <button class="like-button" type="button"><i class="fa-solid fa-thumbs-up"></i></button>
+            <span class="comment-likes">24</span>
+            <button class="dislike-button" type="button"><i class="fa-solid fa-thumbs-down"></i></button>
+            <button class="reply-button" type="button">Reply</button>
+          </div>
+          <!--Public Comments and Reply-4 ends-->
+
+          <!--Public Comments and Reply-5 starts-->
+          <div class="public-comments">
+            <div>
+              <a href=""><img class="public-logo" src="./assets/images/mercedes-benz-logo.png" alt="spotify-logo"></a>
+            </div>
+            <div>
+              <span class="public-name">@Sivagiri S</span>
+              <span class="post-date"> 12 Months ago</span>
+              <span class="public-thoughts">
+                Thank you very much Mash. This course is very well thought out
+                and has a really high quality. No magic shortcut - everything is explained plus great hints along
+                the
+                way.
+              </span>
+            </div>
+          </div>
+
+          <div class="comment-buttons">
+            <button class="like-button" type="button"><i class="fa-solid fa-thumbs-up"></i></button>
+            <span class="comment-likes">24</span>
+            <button class="dislike-button" type="button"><i class="fa-solid fa-thumbs-down"></i></button>
+            <button class="reply-button" type="button">Reply</button>
+          </div>
+          <!--Public Comments and Reply-5 ends-->
+        </div>
+      </div>
+
+      <div id="asideVideos">
+        <!--aside videos starts here-->
+        <aside>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+            <!--sidebar video-1-->
+            <div class="sidebar-videos">
+
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/meta-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Amazon Wildlife Animals That Call The Jungle Home | Amazon Rainforest</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+            <!--sidebar video-2-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/nature-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Horizon View in Nature Morning | 4k Video HD Ultra</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-3-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/home-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Best Compilation of Sunsets and Time Lapse of Sky Views </h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-4-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/learning-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Learn React JS with Project in 2 Hours | React Tutorial for Beginners</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-5-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/nature-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Horizon View in Nature Morning | 4k Video HD Ultra</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-6-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/meta-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Amazon Wildlife Animals That Call The Jungle Home | Amazon Rainforest</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-7-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/trust-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title"> Trust Content | Make You Proud!</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-8-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/nature-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Horizon View in Nature Morning</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-9-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/home-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title"> Amazon Wildlife Animals That Call The Jungle Home | Amazon Rainforest</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-10-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/home-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">Best Compilation | Sleep and Relax Music
+                  Screensaver</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--sidebar video Lists-->
+          <div class="aside-videos">
+
+            <!--sidebar video-11-->
+            <div class="sidebar-videos">
+              <div class="sidebar-video">
+                <a href="#">
+                  <video class="side-video">
+                    <source src="./assets/videos/learning-video.mp4" type="video/mp4">
+                  </video>
+                </a>
+              </div>
+
+              <div class="sidebar-info">
+                <h2 class="sidebar-title">React Tutorial for Beginners | React Project Crash Course</h2>
+                <div class="views-details">
+                  <p>
+                    <a href="#">Channel F <i class="fa-solid fa-circle-check"></i></a>
+                  </p>
+                  <p>
+                    <span>265K views</span>
+                    <span>. 3 years ago</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </aside>
+        <!--aside ends here-->
+      </div>
+    </div>
+  </main>
+  <!--main ends here-->
+
+  <!--footer starts here-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright 2023 | Sivagiri</p>
+  </footer>
+  <!--footer ends here-->
+
+</body>
+
+</html>

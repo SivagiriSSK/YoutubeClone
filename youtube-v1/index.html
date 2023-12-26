@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Home page of Youtube you can get millions of videos uploaded by the end users across the globe">
+  <meta name="keywords" content="Trending Videos,Cricket Highlights,React Complete tutorials">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Youtube v1</title>
+
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="icon" href="./assets/images/youtube-logo.svg">
+
+</head>
+
+<body>
+
+  <!--header starts here-->
+  <header>
+
+    <div class="yt-header">
+      <div>
+        <a href="./index.html">
+          <img src="./assets/images/yt-logo.png" alt="YouTube Logo" width="120"></a>
+      </div>
+
+      <div class="input-grp">
+        <input type="text" placeholder="Search" class="search-input">
+        <button type="button" id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button type="button" id="searchMic"><i class="fa-solid fa-microphone"></i></button>
+      </div>
+
+      <div>
+        <button type="button" id="signInButton"><i class="fa-solid fa-user"></i> Sign in</button>
+      </div>
+    </div>
+    <!-- <nav id="primaryNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav> -->
+
+  </header>
+  <!--header ends here-->
+
+  <!--main starts here-->
+  <main>
+    <!--suggestedTopics starts-->
+    <div id="suggestedTopics">
+      <div class="trending-topics">
+        <ul>
+          <li><a href="./index.html">All</a></li>
+          <li><a href="./index.html">Live</a></li>
+          <li><a href="./index.html">Music</a></li>
+          <li><a href="./index.html">Sports</a></li>
+          <li><a href="./index.html">Live</a></li>
+          <li><a href="./index.html">Movies</a></li>
+          <li><a href="./index.html">Education</a></li>
+          <li><a href="./index.html">Cricket</a></li>
+          <li><a href="./index.html">Football</a></li>
+          <li><a href="./index.html">Tennis</a></li>
+          <li><a href="./index.html">Sports</a></li>
+          <li><a href="./index.html">Live</a></li>
+          <li><a href="./index.html">Movies</a></li>
+          <li><a href="./index.html">Live</a></li>
+          <li><a href="./index.html">Sports</a></li>
+          <li><a href="./index.html">Angular</a></li>
+          <li><a href="./index.html">Sports</a></li>
+          <li><a href="./index.html"><i class="fa-solid fa-chevron-right"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--suggestedTopics ends-->
+
+    <!--section starts here-->
+    <section>
+      <div class="grid-wrapper">
+
+        <!--#Video-1-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/meta-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/apple-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Amazon Wildlife In 4K - Animals That Call The Jungle Home | Amazon Rainforest
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-2-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/learning-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/spotify-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Learn React JS with Project in 2 Hours | React Tutorial for Beginners | React Project Crash Course
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-3-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/nature-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/starbucks-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Horizon View in Nature Morning - Breathtaking Nature bath with Relaxing Music - 4k Video HD Ultra
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-4-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/home-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/netflix-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Best Compilation of Sunsets and Time Lapse of Sky Views - Sleep and Relax Music Screensaver
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!--#Video-5-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/nature-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/starbucks-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Horizon View in Nature Morning - Breathtaking Nature bath with Relaxing Music - 4k Video HD Ultra
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-6-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/home-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/netflix-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Best Compilation of Sunsets and Time Lapse of Sky Views - Sleep and Relax Music Screensaver
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-7-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/meta-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/apple-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Amazon Wildlife In 4K - Animals That Call The Jungle Home | Amazon Rainforest
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-8-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/nature-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/starbucks-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Horizon View in Nature Morning - Breathtaking Nature bath with Relaxing Music - 4k Video HD Ultra
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-8-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/nature-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/starbucks-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Horizon View in Nature Morning - Breathtaking Nature bath with Relaxing Music - 4k Video HD Ultra
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--#Video-9-->
+        <div>
+          <a href="./video.html">
+            <video class="video-meta">
+              <source src="./assets/videos/meta-video.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div>
+            <a href="./video.html">
+              <abbr title="Channel C">
+                <img class="channel-logo" src="./assets/images/apple-logo.png" alt="Channel C"></abbr>
+            </a>
+            <div class="yt-meta">
+              <a href="./video.html">
+                <h2>Amazon Wildlife In 4K - Animals That Call The Jungle Home | Amazon Rainforest
+                </h2>
+              </a>
+              <p>
+                <a href="#">Channel S <i class="fa-solid fa-circle-check"></i></a>
+                <span> 1M views</span>
+                <span>2 Weeks ago</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--section ends here-->
+  </main>
+  <!--main ends here-->
+
+  <!--footer starts here-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright 2023 | Sivagiri</p>
+  </footer>
+  <!--footer ends here-->
+
+</body>
+
+</html>
