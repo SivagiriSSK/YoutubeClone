@@ -1,0 +1,81 @@
+.user-logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  margin-top: -5px;
+  border-radius: 50%;
+}
+.public-comments {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.user-feedback {
+  width: 677px;
+  margin-left: 2px;
+  margin-top: -0.5px;
+  padding-bottom: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0f0f0f;
+  display: block;
+}
+.comment-buttons {
+  display: block;
+  display: flex;
+  margin-top: -10px;
+  margin-left: 60px;
+}
+.like-button {
+  height: 34px;
+  width: 34px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+.dislike-button {
+  height: 34px;
+  width: 34px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+.reply-button {
+  font-size: 12px;
+  font-weight: 500;
+  color: #0f0f0f;
+  border: none;
+  width: 60px;
+  border-radius: 28px;
+  background-color: transparent;
+}
+.like-button:hover {
+  color: #4242d5f0;
+  background-color: #00000020;
+}
+.dislike-button:hover {
+  color: #4242d5f0;
+  background-color: #00000020;
+}
+.reply-button:hover {
+  background-color: #00000020;
+}
+.posted-date {
+  color: #0f0f0f;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.user-feedback {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0f0f0f;
+  margin-left: 2px;
+}
+.comment-likes {
+  font-size: 12px;
+  margin-top: 7px;
+}

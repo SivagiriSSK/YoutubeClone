@@ -1,0 +1,50 @@
+.aside-video {
+  margin-top: 3px;
+  margin-top: -9px;
+  margin-left: -10px;
+}
+
+.suggested-video {
+  display: grid;
+  grid-template-columns: 190px 240px;
+  gap: 7.5px;
+}
+
+a {
+  video {
+    width: 185px;
+    height: 125px;
+  }
+}
+.channel-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0f0f0f;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.video-info {
+  p,
+  a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #606060;
+  }
+}
+
+.video-info h2 {
+  margin-bottom: 16px;
+}
+
+.video-info {
+  p,
+  p {
+    margin-top: -10px;
+  }
+}
+.comment-likes {
+  margin-left: -12px;
+  margin-right: 10px;
+}

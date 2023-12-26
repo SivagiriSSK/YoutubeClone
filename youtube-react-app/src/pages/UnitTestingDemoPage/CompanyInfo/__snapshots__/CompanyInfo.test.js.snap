@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyInfo has right snapshot with all requirments completed 1`] = `
+<div>
+  <div>
+    Company Info
+  </div>
+  <h3
+    data-testid="companyName"
+  >
+    Company Name: Cognizant
+  </h3>
+  <p
+    data-testid="foundedYear"
+    style={
+      Object {
+        "backgroundColor": "black",
+        "color": "rgb(0, 255, 0)",
+      }
+    }
+  >
+    Founded in: 
+    2000
+  </p>
+  <p
+    data-testid="headquarter"
+  >
+    Headquarter: 
+  </p>
+  <button
+    className="btn btn-primary"
+    data-testid="joinCognizant"
+  >
+    JOIN COGNIZANT
+  </button>
+  <hr />
+  <input
+    onChange={[Function]}
+    placeholder="Enter Your Country Name!"
+    type="text"
+    value="USA"
+  />
+  <p
+    data-testid="visitWebsite"
+  >
+    Please visit Cognizant 
+    USA
+     Website
+  </p>
+</div>
+`;
