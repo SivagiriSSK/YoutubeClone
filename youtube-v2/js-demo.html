@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/js-demo.css">
+  </style>
+  <title>JS Demo</title>
+</head>
+
+<body>
+  <h1>JavaScript DOM Manipulation </h1>
+  <!-- TODO: Add CSS class using javascript-->
+
+  <div id="demoJavascript">
+    Hello JavaScript
+  </div>
+  <button onclick="handleClick()">Style Me</button>
+
+  <!--add list using javascript-->
+  <div>
+    <h2 id="changeContent">Hello World!!!</h2>
+  </div>
+  <button onclick="changeText()">ChangeText</button>
+
+  <hr>
+
+  <div id="addContent">
+    <input type="text" id="userInput" placeholder="Enter the Menu">
+    <button onclick="addMenu()">Add to List</button>
+  </div>
+
+  <ul id="menuList">
+
+  </ul>
+  <hr>
+
+  <!--Add User Skills -->
+  <h2>Add User Skills</h2>
+  <button type="button" onclick="addUserSkill()">Add Skill</button>
+  <ul id="addSkill">
+
+  </ul>
+
+  <!-- Geo Location -->
+  <hr>
+  <h2>HTML5 JS API's</h2>
+  <h3>Geo Location </h3>
+
+  <button type="button" id="locationBtn">Locate Me</button>
+  <p class="latitude-text">Latitude : <span id="latitude"></span></p>
+  <p class="longitude-text">Longitude : <span id="longitude"></span></p>
+
+  <!-- Web Storage API  -->
+  <hr>
+  <h2>Web Storage</h2>
+  <input type="text" id="pincodeInput" placeholder="Enter Your Pincode ">
+  <button type="button" id="savePincodeBtn">Save Pincode</button>
+  <button type="button" id="removePincodeBtn">Remove Pincode</button>
+
+  <script src="./assets/scripts/js-demo.js"></script>
+</body>
+
+</html>
